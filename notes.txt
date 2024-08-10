@@ -1,0 +1,8 @@
+We can check percentage of code covered and it's severity By running test using 'run with coverage'.
+or
+(in terminal)
+ENVIRONMENT=test go test -count 1 -timeout 7m -p 1 -covermode count -coverprofile code-coverage.out -v ./...
+This will create a file code-coverage.out
+
+For Visualization:
+go tool cover -html=code-coverage.out
