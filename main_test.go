@@ -21,7 +21,7 @@ func TestToLowerCase(t *testing.T) {
 			wantErr: false,
 		},
 		{
-			name: "Should return error when empty string is passd",
+			name: "Should return error when empty string is passed",
 			args: args{
 				s: "",
 			},
